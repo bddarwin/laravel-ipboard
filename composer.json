@@ -21,4 +21,14 @@
             "src/helpers.php"
         ]
     }
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Alawrence\\Ipboard\\ServiceProvider"
+			],
+			"aliases": {
+				"IpBoard": "Alawrence\\Ipboard\\Facade"
+			}
+		}
+	}
 }

@@ -16,7 +16,7 @@ class TestCommand extends Command
         $this->ipboard = $ipboard;
     }
 
-    public function fire()
+    public function handle()
     {
         $result = $this->ipboard->hello();
 
