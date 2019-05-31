@@ -3,9 +3,9 @@
 namespace Alawrence\Ipboard;
 
 use GuzzleHttp\Client as HttpClient;
-use GuzzleHttp\Exception\ClientException;
 use Mockery\CountValidator\Exception;
 use Psr\Http\Message\ResponseInterface;
+use GuzzleHttp\Exception\ClientException;
 
 class Ipboard
 {

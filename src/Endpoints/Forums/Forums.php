@@ -2,9 +2,9 @@
 
 namespace Alawrence\Ipboard;
 
+use Alawrence\Ipboard\Exceptions\IpboardThrottled;
 use Alawrence\Ipboard\Exceptions\IpboardInvalidApiKey;
 use Alawrence\Ipboard\Exceptions\IpboardMemberIdInvalid;
-use Alawrence\Ipboard\Exceptions\IpboardThrottled;
 
 trait Forums
 {
